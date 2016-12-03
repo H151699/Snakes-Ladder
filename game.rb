@@ -131,6 +131,7 @@ class Game
           break
         end
         puts ""
+        sleep 3
       end
       puts "Winner: #{board.winner()}"
     end
